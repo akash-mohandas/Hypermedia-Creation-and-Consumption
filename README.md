@@ -29,8 +29,8 @@ widget that shows linked information. Another difficulty is that
 automatically segmenting video of all kinds is not easy and as yet, an
 area of research in computer vision. In this project you will explore
 the problem space of hypervideo. Consequently, you have two tasks: 
-• Create an authoring tool to setup hyper linked videos 
-• Create an interactive video player to interact with hypervideos. Both of these are
+  * Create an authoring tool to setup hyper linked videos 
+  * Create an interactive video player to interact with hypervideos. Both of these are
 explained in detail below with example user interfaces/workflows.
 
 However, the implementation that your group designs will be specific to
@@ -79,12 +79,12 @@ videos.
 
 In the above figure 
 A) Shows you the actions to perform. 
-   * Import video – loads the primary video on the left. 
-   * Import link video – loads the secondary video to the right, you may load secondary videos multiple
-   times in session because different links may need different videos. 
-   * Create new hyperlink – creates a new link with an editable name, centers
-   a default bounding box (which you may edit) and adds it to a list of
-   links which are displayed in C 
+    * Import video – loads the primary video on the left. 
+    * Import link video – loads the secondary video to the right, you may load secondary videos multiple
+    times in session because different links may need different videos. 
+    * Create new hyperlink – creates a new link with an editable name, centers
+    a default bounding box (which you may edit) and adds it to a list of
+    links which are displayed in C 
 B) Slider to move across frames for
 primary video 
 C) Shows you a list of links that you might have created
