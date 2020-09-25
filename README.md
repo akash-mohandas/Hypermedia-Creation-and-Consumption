@@ -78,6 +78,7 @@ videos.
 ![diagram1](diagram1.png)
 
 In the above figure 
+
 A) Shows you the actions to perform. 
     * Import video – loads the primary video on the left. 
     * Import link video – loads the secondary video to the right, you may load secondary videos multiple
@@ -85,20 +86,25 @@ A) Shows you the actions to perform.
     * Create new hyperlink – creates a new link with an editable name, centers
     a default bounding box (which you may edit) and adds it to a list of
     links which are displayed in C 
+
 B) Slider to move across frames for
 primary video 
+
 C) Shows you a list of links that you might have created
 during a session. You could have their names editable so you can name
 them contextually. Selecting a link should highlight the link selected
 (in say red) and also move the primary video to the first frame where it
 is setup. 
+
 D) Slider to move across frames for linked video 
+
 E) Define Link – defines the hyper link for the selected item to the video frame
 of the video currently in D. Note – you should be able to load any
 secondary video on the right during a session to define your links. For
 example, you might create a link, edit it to fit to an area and then load a video on the right
 which you think you want to link to, and may have to visualize several
 before you choose the right one. 
+
 F) Save file – This will create an auxiliary meta data file, of the same base name as the primary video
 that contains all the hyperlinks. Note you may define what this file
 format should be as mentioned earlier, but make sure you save the
