@@ -28,10 +28,11 @@ different – you could browse to another media element, or have a pop up
 widget that shows linked information. Another difficulty is that
 automatically segmenting video of all kinds is not easy and as yet, an
 area of research in computer vision. In this project you will explore
-the problem space of hypervideo. Consequently, you have two tasks: •
-Create an authoring tool to setup hyper linked videos • Create an
-interactive video player to interact with hypervideos. Both of these are
+the problem space of hypervideo. Consequently, you have two tasks: 
+• Create an authoring tool to setup hyper linked videos 
+• Create an interactive video player to interact with hypervideos. Both of these are
 explained in detail below with example user interfaces/workflows.
+
 However, the implementation that your group designs will be specific to
 your skill sets and efforts. Remember, there will definitely be no wrong
 answer or wrong implementation and you are not even asked to follow
@@ -41,7 +42,7 @@ can navigate the content in your player. This will depend on your
 design, architecture and workflow principles. So give it a respectful
 thought!
 
-Part 1: Create a Hyper-Linking Video Tool. Here you will write an
+Part 1: Create a Hyper-Linking Video Tool. Here you will write an
 application that needs to load videos and setup hyperlinks. Your
 authoring tool should have the following capabilities: 
 1. Import video(s). There should be a minimum of two videos that can be imported
@@ -55,12 +56,12 @@ should allow random access to any frame
 Tracking areas represent semantic regions of interest, which could be
 automatically detected in future by advance vision algorithms, but for
 now we will resort to manually defining these areas in your setup. 
-  * Use bounding boxes to setup an area of interest on a frame. The area of
+   * Use bounding boxes to setup an area of interest on a frame. The area of
 interest could be visible for a short (or long) time segment in the
 video. 
-  * They could change position and shape while they are defined,
+   * They could change position and shape while they are defined,
 mostly to follow the object of interest. 
-  * For each area, you should be able to setup a hyperlink pointer to point to a video with a frame
+   * For each area, you should be able to setup a hyperlink pointer to point to a video with a frame
 number. This hyper link specifies how your video will change and jump to
 a new video when interactively viewing in your player. 
 4. On conclusion of your authoring session, your setup should have a save data button,
@@ -78,12 +79,12 @@ videos.
 
 In the above figure 
 A) Shows you the actions to perform. 
-  * Import video – loads the primary video on the left. 
-  * Import link video – loads the secondary video to the right, you may load secondary videos multiple
-  times in session because different links may need different videos. 
-  * Create new hyperlink – creates a new link with an editable name, centers
-  a default bounding box (which you may edit) and adds it to a list of
-  links which are displayed in C 
+   * Import video – loads the primary video on the left. 
+   * Import link video – loads the secondary video to the right, you may load secondary videos multiple
+   times in session because different links may need different videos. 
+   * Create new hyperlink – creates a new link with an editable name, centers
+   a default bounding box (which you may edit) and adds it to a list of
+   links which are displayed in C 
 B) Slider to move across frames for
 primary video 
 C) Shows you a list of links that you might have created
