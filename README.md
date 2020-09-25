@@ -43,26 +43,27 @@ thought!
 
 Part 1: Create a Hyper-Linking Video Tool. Here you will write an
 application that needs to load videos and setup hyperlinks. Your
-authoring tool should have the following capabilities: 1. Import
-video(s). There should be a minimum of two videos that can be imported
+authoring tool should have the following capabilities: 
+1. Import video(s). There should be a minimum of two videos that can be imported
 in your interface – one primary video that you are creating hyperlinks
 for and the other secondary video which helps set up your hyperlink
 target. The latter is more to help you visually see your hyperlink
-target and the frame number to link to. 2. Navigate through all frames
-of the video a timeline with a slider (or something similar). This
-should allow random access to any frame 3. Define and edit areas to
-track in the main video and setup up hyperlinks for this tracked area.
+target and the frame number to link to. 
+2. Navigate through all frames of the video a timeline with a slider (or something similar). This
+should allow random access to any frame 
+3. Define and edit areas to track in the main video and setup up hyperlinks for this tracked area.
 Tracking areas represent semantic regions of interest, which could be
 automatically detected in future by advance vision algorithms, but for
-now we will resort to manually defining these areas in your setup. • Use
-bounding boxes to setup an area of interest on a frame. The area of
+now we will resort to manually defining these areas in your setup. 
+  • Use bounding boxes to setup an area of interest on a frame. The area of
 interest could be visible for a short (or long) time segment in the
-video. • They could change position and shape while they are defined,
-mostly to follow the object of interest. • For each area, you should be
-able to setup a hyperlink pointer to point to a video with a frame
+video. 
+  • They could change position and shape while they are defined,
+mostly to follow the object of interest. 
+  • For each area, you should be able to setup a hyperlink pointer to point to a video with a frame
 number. This hyper link specifies how your video will change and jump to
-a new video when interactively viewing in your player. 4. On conclusion
-of your authoring session, your setup should have a save data button,
+a new video when interactively viewing in your player. 
+4. On conclusion of your authoring session, your setup should have a save data button,
 that will save a metadata file which encapsulates all the setup
 hyperlink information for the current primary video. You may choose your
 own design/format for this file. Here is a simple, but functional setup
@@ -100,28 +101,31 @@ Frame 20
 B
 
 D
+![diagram1](diagram1.png)
 
-In the above figure A) Shows you the actions to perform. • Import video
-– loads the primary video on the left. • Import link video – loads the
-secondary video to the right, you may load secondary videos multiple
-times in session because different links may need different videos. •
-Create new hyperlink – creates a new link with an editable name, centers
-a default bounding box (which you may edit) and adds it to a list of
-links which are displayed in C B) Slider to move across frames for
-primary video C) Shows you a list of links that you might have created
+In the above figure 
+A) Shows you the actions to perform. 
+  • Import video – loads the primary video on the left. 
+  • Import link video – loads the secondary video to the right, you may load secondary videos multiple
+  times in session because different links may need different videos. 
+  • Create new hyperlink – creates a new link with an editable name, centers
+  a default bounding box (which you may edit) and adds it to a list of
+  links which are displayed in C 
+B) Slider to move across frames for
+primary video 
+C) Shows you a list of links that you might have created
 during a session. You could have their names editable so you can name
 them contextually. Selecting a link should highlight the link selected
 (in say red) and also move the primary video to the first frame where it
-is setup. D) Slider to move across frames for linked video E) Define
-Link – defines the hyper link for the selected item to the video frame
+is setup. 
+D) Slider to move across frames for linked video 
+E) Define Link – defines the hyper link for the selected item to the video frame
 of the video currently in D. Note – you should be able to load any
 secondary video on the right during a session to define your links. For
-example, you might create a
-
-link, edit it to fit to an area and then load a video on the right
+example, you might create a link, edit it to fit to an area and then load a video on the right
 which you think you want to link to, and may have to visualize several
-before you choose the right one. F) Save file – This will create an
-auxiliary meta data file, of the same base name as the primary video
+before you choose the right one. 
+F) Save file – This will create an auxiliary meta data file, of the same base name as the primary video
 that contains all the hyperlinks. Note you may define what this file
 format should be as mentioned earlier, but make sure you save the
 necessary information required for your hyperlinked video to play
@@ -131,11 +135,11 @@ Part 2: Interactive video player. Your player should load the specified
 video and its corresponding meta data file. You should be able to play
 the video and audio at frame rate. Below is a simple interface for a
 player – you have a video playing at frame rate with a play, pause and
-stop button (A, B and C respectively). D
+stop button (A, B and C respectively). 
 
-A B C
 
-Playing Frame 93
+
+![diagram2](diagram2.png)
 
 You also need to respect the hyperlinks that were defined in your setup
 session while creating hyperlinks. So for instance, if you clicked on D
@@ -143,6 +147,4 @@ while the video is playing, you should stop the current video and load
 the corresponding video to play it from the frame defined during the
 setup phase.
 
-Playing Frame 20
-
-
+![diagram3](diagram3.png)
