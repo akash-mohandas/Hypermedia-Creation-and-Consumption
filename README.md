@@ -55,12 +55,12 @@ should allow random access to any frame
 Tracking areas represent semantic regions of interest, which could be
 automatically detected in future by advance vision algorithms, but for
 now we will resort to manually defining these areas in your setup. 
-  • Use bounding boxes to setup an area of interest on a frame. The area of
+  * Use bounding boxes to setup an area of interest on a frame. The area of
 interest could be visible for a short (or long) time segment in the
 video. 
-  • They could change position and shape while they are defined,
+  * They could change position and shape while they are defined,
 mostly to follow the object of interest. 
-  • For each area, you should be able to setup a hyperlink pointer to point to a video with a frame
+  * For each area, you should be able to setup a hyperlink pointer to point to a video with a frame
 number. This hyper link specifies how your video will change and jump to
 a new video when interactively viewing in your player. 
 4. On conclusion of your authoring session, your setup should have a save data button,
@@ -74,41 +74,14 @@ design is not something that will decide your grade, do give it ample
 thought so as to make easy workflow metaphors to create hyperlinked
 videos.
 
-C
-
-A
-
-Action :
-
-Import Primary video Import Secondary video Create new hyperlink
-
-Frame 93
-
-Select Link:
-
-Doctor Dinosaur Dinosaur2
-
-E
-
-Connect Video
-
-F
-
-Save File
-
-Frame 20
-
-B
-
-D
 ![diagram1](diagram1.png)
 
 In the above figure 
 A) Shows you the actions to perform. 
-  • Import video – loads the primary video on the left. 
-  • Import link video – loads the secondary video to the right, you may load secondary videos multiple
+  * Import video – loads the primary video on the left. 
+  * Import link video – loads the secondary video to the right, you may load secondary videos multiple
   times in session because different links may need different videos. 
-  • Create new hyperlink – creates a new link with an editable name, centers
+  * Create new hyperlink – creates a new link with an editable name, centers
   a default bounding box (which you may edit) and adds it to a list of
   links which are displayed in C 
 B) Slider to move across frames for
