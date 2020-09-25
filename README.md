@@ -1,5 +1,6 @@
-Hypermedia – Creation and Consumption Due Date: End of Semester Dec 5 /
-Dec 6 Description One of the necessary properties of digital multimedia
+**Hypermedia – Creation and Consumption**
+
+**Description:** One of the necessary properties of digital multimedia
 content is that it needs to be interactive. Interactive Multimedia
 Content is available in different forms today. We only text is involved,
 we are all familiar with hyper linked text documents and the http
