@@ -80,12 +80,11 @@ videos.
 In the above figure 
 
 A) Shows you the actions to perform. 
-    * Import video – loads the primary video on the left. 
-    * Import link video – loads the secondary video to the right, you may load secondary videos multiple
+  * Import video – loads the primary video on the left. 
+  * Import link video – loads the secondary video to the right, you may load secondary videos multiple
     times in session because different links may need different videos. 
-    * Create new hyperlink – creates a new link with an editable name, centers
-    a default bounding box (which you may edit) and adds it to a list of
-    links which are displayed in C 
+  * Create new hyperlink – creates a new link with an editable name, centers
+    a default bounding box (which you may edit) and adds it to a list of links which are displayed in C 
 
 B) Slider to move across frames for
 primary video 
